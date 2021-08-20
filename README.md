@@ -7,6 +7,14 @@ Downloads webex or zoom recordings onto user provided paths.
 - If driver is not provided, tries to search for chromedriver in current directory.
 - Use --no-prompt/-n to avoid prompting user.
 
+###### Sample of source file:
+```
+url, password
+<url_1_for_webex_here>, <recording_password_here>
+<url_2_for_webex_here>, <recording_password_here>
+<url_1_for_zoom_meeting_here>, <recording_password_here>
+```
+
 ## Pre-requisites:
 - Download relevant ChromeDriver from https://chromedriver.chromium.org/downloads place it under utilities folder.
 - Install selenium using "pip install selenium".
