@@ -2,7 +2,7 @@
 Downloads webex or zoom recordings onto user provided paths.
 
 ## Usage:
-> python download_webex_recordings.py --source <\path\to\source_file.csv> --driver <\path\to\chromedriver.exe> --destination <\path\to\downloads_dir>
+> python download_meeting_recordings.py --source <\path\to\source_file.csv> --driver <\path\to\chromedriver.exe> --destination <\path\to\downloads_dir>
 - If destination is not provided, uses current directory for downloads.
 - If driver is not provided, tries to search for chromedriver in current directory.
 - Use --no-prompt/-n to avoid prompting user.
